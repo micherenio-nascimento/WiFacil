@@ -1,0 +1,13 @@
+.env
+data/
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+*.apk
+*.tar
+*.tar.md5
+*.img
+*.img.lz4
+*.pit
+.DS_Store

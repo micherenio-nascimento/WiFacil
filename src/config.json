@@ -1,0 +1,18 @@
+{
+  "portal_name": "WiFácil Turbo",
+  "slogan": "Internet rápida, preço leve.",
+  "pix_key": "upcode84@gmail.com",
+  "currency": "BRL",
+  "bind_host": "0.0.0.0",
+  "port": 8080,
+  "firewall_enabled": true,
+  "hotspot_interface": "swlan0",
+  "gateway_ip": "192.168.43.46",
+  "payment_window_minutes": 5,
+  "payment_window_cooldown_minutes": 30,
+  "plans": [
+    {"id": "rapidinho", "name": "Rapidinho", "price_cents": 100, "minutes": 30, "data_mb": 300},
+    {"id": "economico", "name": "Econômico", "price_cents": 200, "minutes": 120, "data_mb": 1024},
+    {"id": "dia", "name": "Dia Conectado", "price_cents": 500, "minutes": 720, "data_mb": 3072}
+  ]
+}
